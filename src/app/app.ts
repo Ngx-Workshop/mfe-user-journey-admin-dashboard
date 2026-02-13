@@ -4,7 +4,12 @@ import { MatButtonModule } from '@angular/material/button';
 @Component({
   selector: 'ngx-seed-mfe',
   imports: [MatButtonModule],
-  template: ` <h1>Got some in the charcoals working... 🍖</h1> `,
+  template: `
+    <div>
+      <h1>Got something in the charcoals working... 🍖</h1>
+      <p>Try other pages for now</p>
+    </div>
+  `,
   styles: [``],
 })
 export class App {}
